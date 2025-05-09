@@ -3,12 +3,12 @@ $(document).ready(function(){
     $('.left-curtain').css('width', '0%');
     $('.right-curtain').css('width', '0%');
   
-    $('.valentines-day').click(function(){
+    $('.day').click(function(){
       // Animación de desvanecimiento de los elementos del sobre
       $('.envelope').css({'animation':'fall 3s linear 1', '-webkit-animation':'fall 3s linear 1'});
       $('.envelope').fadeOut(800, function() {
-        // Ocultar elementos dentro de .valentines-day
-        $('.valentines-day .heart, .valentines-day .text, .valentines-day .front').hide();
+        // Ocultar elementos dentro de .day
+        $('.day .heart, .day .text, .day .front').hide();
         
   
         // Hacer visible la carta con una animación ondulante
