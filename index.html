@@ -34,5 +34,14 @@
             <p> Te ama: Aldo Daniel</p>
     </div>
     
+    <script>
+        // Mostrar la imagen al hacer clic en el div con id "card"
+        $(document).ready(function() {
+            $('#card').on('click', function() {
+                $('#timeline-image').removeClass('hidden'); // Eliminar la clase 'hidden' para mostrar la imagen
+            });
+        });
+    </script>
+    
 </body>
 </html>
